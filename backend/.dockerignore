@@ -1,0 +1,11 @@
+venv
+__pycache__
+.pytest_cache
+.coverage
+htmlcov
+tests
+polling.db
+test_bootstrap.db
+*.db
+app/.env
+.env

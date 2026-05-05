@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Светлая тема (по умолчанию) */
+html {
+  background-color: #f9fafb; /* Это цвет gray-50 */
+  color: #111827;            /* Это цвет gray-900 */
+}
+
+/* Темная тема (когда добавлен класс dark) */
+html.dark {
+  background-color: #111827; /* Это цвет gray-900 (темный фон) */
+  color: #ffffff;            /* Белый текст */
+}
+
+/* Растягиваем фон на весь экран */
+html, body {
+  min-height: 100vh;
+  margin: 0;
+  transition: background-color 0.3s ease; /* Плавный переход */
+}
